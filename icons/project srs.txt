@@ -1,0 +1,21 @@
+project title 			college attendance management system
+backend				sql server
+frontend				vb
+project partner 			
+role of project partner
+data dictionary
+masters
+table name				semester master					remarks:
+sem id				primary key		notnullvarchar			2 digit
+sem name							notnullvarchar
+
+
+subject master										remarks:
+sub code				primary key 	notnullvarchar
+subname							
+sem code												foreign key to sem master
+
+
+
+context level dfd
+1 level dfd
